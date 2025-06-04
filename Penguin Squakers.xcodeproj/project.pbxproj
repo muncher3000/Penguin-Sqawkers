@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F7FE44292DF0332A0053C804 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE44282DF0332A0053C804 /* ProgressBarView.swift */; };
+		F7FE442B2DF036BB0053C804 /* PoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FE442A2DF036BB0053C804 /* PoopView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		A17B63822DF0064000C55060 /* Penguin Squakers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Penguin Squakers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FE44282DF0332A0053C804 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		F7FE442A2DF036BB0053C804 /* PoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		A17B63792DF0064000C55060 = {
 			isa = PBXGroup;
 			children = (
+				F7FE442A2DF036BB0053C804 /* PoopView.swift */,
+				F7FE44282DF0332A0053C804 /* ProgressBarView.swift */,
 				A17B63842DF0064000C55060 /* Penguin Squakers */,
 				A17B63832DF0064000C55060 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7FE442B2DF036BB0053C804 /* PoopView.swift in Sources */,
+				F7FE44292DF0332A0053C804 /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
